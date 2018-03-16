@@ -1,0 +1,42 @@
+// Place your settings in this file to overwrite the default settings
+{
+  // Controls if the minimap is shown
+  "editor.minimap.enabled": false,
+  // Controls auto save of dirty files. Accepted values:  'off', 'afterDelay', 'onFocusChange' (editor loses focus), 'onWindowChange' (window loses focus). If set to 'afterDelay', you can configure the delay in 'files.autoSaveDelay'.
+  "files.autoSave": "onFocusChange",
+  // Controls if the editor should allow to move selections via drag and drop.
+  "editor.dragAndDrop": false,
+  "workbench.iconTheme": "material-icon-theme",
+  // Format the document upon saving.
+  "editor.formatOnSave": true,
+  // Path to folder with a list of Virtual Environments (e.g. ~/.pyenv, ~/Envs, ~/.virtualenvs).
+  "python.venvPath": "~/.virtualenvs",
+  // Enables macOS Sierra window tabs. Note that changes require a full restart to apply and that native tabs will disable a custom title bar style if configured.
+  "window.nativeTabs": true,
+  // Columns at which to show vertical rulers
+  "editor.rulers": [
+    80
+  ],
+  "jupyter.appendResults": false,
+  // Configurations for the extension.
+  "TodoParser": {},
+  "explorer.confirmDragAndDrop": false,
+  "python.linting.enabledWithoutWorkspace": false,
+  "python.disablePromptForFeatures": [
+    "pylint"
+  ],
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": false
+  },
+  "gitlens.resultsExplorer.files.layout": "tree",
+  "window.zoomLevel": 0,
+  "gitlens.keymap": "alternate",
+}
