@@ -10,7 +10,7 @@
   // Format the document upon saving.
   "editor.formatOnSave": true,
   // Path to folder with a list of Virtual Environments (e.g. ~/.pyenv, ~/Envs, ~/.virtualenvs).
-  "python.venvPath": "~/.virtualenvs",
+  "python.venvPath": "~/.local/share/virtualenvs",
   // Enables macOS Sierra window tabs. Note that changes require a full restart to apply and that native tabs will disable a custom title bar style if configured.
   "window.nativeTabs": true,
   // Columns at which to show vertical rulers
